@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test Set"  parallel="class" thread-count="2">
+ <listeners>
+   <listener class-name="com.sangam.utilities.Listeners"/>
+ 
+  </listeners>
+	<test name="Verify Error Message">
+		<classes>
+			<class
+				name="com.sangam.tests.TC001_VerifyErrorMessageForDOBAndCommunity" />
+		</classes>
+	</test>	
+		<test name="Submit registrstion details and verify email view">
+		<classes>
+			<class
+				name="com.sangam.tests.TC002_SubmitInformationAndVerifyEmailView" />
+		</classes>
+	</test>	
+</suite>

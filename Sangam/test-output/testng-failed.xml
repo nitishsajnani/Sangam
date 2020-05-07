@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Test Set]">
+  <listeners>
+    <listener class-name="com.sangam.utilities.Listeners"/>
+  </listeners>
+  <test name="Verify Error Message">
+    <classes>
+      <class name="com.sangam.tests.TC001_VerifyErrorMessageForDOBAndCommunity"/>
+    </classes>
+  </test> <!-- Verify Error Message -->
+  <test name="Submit registrstion details and verify email view">
+    <classes>
+      <class name="com.sangam.tests.TC002_SubmitInformationAndVerifyEmailView"/>
+    </classes>
+  </test> <!-- Submit registrstion details and verify email view -->
+</suite> <!-- Failed suite [Test Set] -->

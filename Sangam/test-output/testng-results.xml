@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[The application url is :- https://www.sangam.com/]]>
+    </line>
+    <line>
+      <![CDATA[The test browser is :- chrome]]>
+    </line>
+    <line>
+      <![CDATA[User clicks on the button: lets begin]]>
+    </line>
+    <line>
+      <![CDATA[Verified the error message: Please specify whose profile is being created]]>
+    </line>
+    <line>
+      <![CDATA[Verified the error message: Please specify Date of Birth]]>
+    </line>
+    <line>
+      <![CDATA[Verified the error message: Please specify Caste / Community]]>
+    </line>
+    <line>
+      <![CDATA[User is successfully login into the application]]>
+    </line>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[The application url is :- https://www.sangam.com/]]>
+    </line>
+    <line>
+      <![CDATA[The test browser is :- chrome]]>
+    </line>
+    <line>
+      <![CDATA[User selects the profile creator: Self]]>
+    </line>
+    <line>
+      <![CDATA[User selects the profile gender: gender]]>
+    </line>
+    <line>
+      <![CDATA[User enters the date of birth the profile gender: 15121990]]>
+    </line>
+    <line>
+      <![CDATA[User selects mother tongue from search list: Hindi]]>
+    </line>
+    <line>
+      <![CDATA[User selects community from search list: Hindu - Agarwal]]>
+    </line>
+    <line>
+      <![CDATA[User clicks on the button: lets begin]]>
+    </line>
+    <line>
+      <![CDATA[User is successfully submitted the registration details]]>
+    </line>
+    <line>
+      <![CDATA[verify user is on email view: Create your account]]>
+    </line>
+    <line>
+      <![CDATA[verify user is on email view: Where should we send you Profiles?]]>
+    </line>
+    <line>
+      <![CDATA[User is successfully login into the application]]>
+    </line>
+  </reporter-output>
+  <suite name="Test Set" duration-ms="45208" started-at="2020-05-06T15:01:13Z" finished-at="2020-05-06T15:01:58Z">
+    <groups>
+    </groups>
+    <test name="Verify Error Message" duration-ms="20649" started-at="2020-05-06T15:01:13Z" finished-at="2020-05-06T15:01:34Z">
+      <class name="com.sangam.tests.TC001_VerifyErrorMessageForDOBAndCommunity">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.sangam.tests.TC001_VerifyErrorMessageForDOBAndCommunity@66a3ffec]" name="beforeMethod" is-config="true" duration-ms="7852" started-at="2020-05-06T20:31:13Z" finished-at="2020-05-06T20:31:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[chrome]]>
+            </line>
+            <line>
+              <![CDATA[The application url is :- https://www.sangam.com/]]>
+            </line>
+            <line>
+              <![CDATA[The test browser is :- chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TestStep01_UserVerifyErrorMessageForDOBAndCommunity()[pri:0, instance:com.sangam.tests.TC001_VerifyErrorMessageForDOBAndCommunity@66a3ffec]" name="TestStep01_UserVerifyErrorMessageForDOBAndCommunity" duration-ms="12551" started-at="2020-05-06T20:31:21Z" finished-at="2020-05-06T20:31:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User clicks on the button: lets begin]]>
+            </line>
+            <line>
+              <![CDATA[Verified the error message: Please specify whose profile is being created]]>
+            </line>
+            <line>
+              <![CDATA[Verified the error message: Please specify Date of Birth]]>
+            </line>
+            <line>
+              <![CDATA[Verified the error message: Please specify Caste / Community]]>
+            </line>
+            <line>
+              <![CDATA[User is successfully login into the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestStep01_UserVerifyErrorMessageForDOBAndCommunity -->
+        <test-method status="PASS" signature="close_Test_Session()[pri:0, instance:com.sangam.tests.TC001_VerifyErrorMessageForDOBAndCommunity@66a3ffec]" name="close_Test_Session" is-config="true" duration-ms="1" started-at="2020-05-06T20:31:34Z" finished-at="2020-05-06T20:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Test_Session -->
+      </class> <!-- com.sangam.tests.TC001_VerifyErrorMessageForDOBAndCommunity -->
+    </test> <!-- Verify Error Message -->
+    <test name="Submit registrstion details and verify email view" duration-ms="24094" started-at="2020-05-06T15:01:34Z" finished-at="2020-05-06T15:01:58Z">
+      <class name="com.sangam.tests.TC002_SubmitInformationAndVerifyEmailView">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.sangam.tests.TC002_SubmitInformationAndVerifyEmailView@6eebc39e]" name="beforeMethod" is-config="true" duration-ms="6625" started-at="2020-05-06T20:31:34Z" finished-at="2020-05-06T20:31:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[chrome]]>
+            </line>
+            <line>
+              <![CDATA[The application url is :- https://www.sangam.com/]]>
+            </line>
+            <line>
+              <![CDATA[The test browser is :- chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="StepTC001_submitRegistrationDetails()[pri:0, instance:com.sangam.tests.TC002_SubmitInformationAndVerifyEmailView@6eebc39e]" name="StepTC001_submitRegistrationDetails" duration-ms="15182" started-at="2020-05-06T20:31:41Z" finished-at="2020-05-06T20:31:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User selects the profile creator: Self]]>
+            </line>
+            <line>
+              <![CDATA[User selects the profile gender: gender]]>
+            </line>
+            <line>
+              <![CDATA[User enters the date of birth the profile gender: 15121990]]>
+            </line>
+            <line>
+              <![CDATA[User selects mother tongue from search list: Hindi]]>
+            </line>
+            <line>
+              <![CDATA[User selects community from search list: Hindu - Agarwal]]>
+            </line>
+            <line>
+              <![CDATA[User clicks on the button: lets begin]]>
+            </line>
+            <line>
+              <![CDATA[User is successfully submitted the registration details]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- StepTC001_submitRegistrationDetails -->
+        <test-method status="PASS" signature="StepTC002_verifyUserIsOnEmailAccountView()[pri:0, instance:com.sangam.tests.TC002_SubmitInformationAndVerifyEmailView@6eebc39e]" name="StepTC002_verifyUserIsOnEmailAccountView" duration-ms="2233" started-at="2020-05-06T20:31:56Z" finished-at="2020-05-06T20:31:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[verify user is on email view: Create your account]]>
+            </line>
+            <line>
+              <![CDATA[verify user is on email view: Where should we send you Profiles?]]>
+            </line>
+            <line>
+              <![CDATA[User is successfully login into the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- StepTC002_verifyUserIsOnEmailAccountView -->
+        <test-method status="PASS" signature="close_Test_Session()[pri:0, instance:com.sangam.tests.TC002_SubmitInformationAndVerifyEmailView@6eebc39e]" name="close_Test_Session" is-config="true" duration-ms="0" started-at="2020-05-06T20:31:58Z" finished-at="2020-05-06T20:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Test_Session -->
+      </class> <!-- com.sangam.tests.TC002_SubmitInformationAndVerifyEmailView -->
+    </test> <!-- Submit registrstion details and verify email view -->
+  </suite> <!-- Test Set -->
+</testng-results>
